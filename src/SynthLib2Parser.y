@@ -54,7 +54,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     extern char* yytext;
 
     extern int yylex(void);
-    int yyerror(char* s)
+    int yyerror(const char* s)
     {
         cerr << "Parse error: Last token read was: " << yytext
              << " at line: " << yylinenum << ", column: "
