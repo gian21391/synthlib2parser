@@ -1,3 +1,10 @@
+src/SynthLib2Lexer.cpp
+src/SynthLib2Parser.output
+src/SynthLib2Parser.tab.cpp
+src/SynthLib2Parser.tab.h
+obj/
+bin/
+
 # Prerequisites
 *.d
 
